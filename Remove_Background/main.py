@@ -37,6 +37,7 @@ for cnt in contours_final:
 
 cv2.imshow("Last Image with more accurate", final_mask)
 cv2.imshow("Mask Kivis", result)
+cv2.imwrite("output.png", final_mask,)
 
 cv2.waitKey()
 cv2.destroyAllWindows()
