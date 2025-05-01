@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
-img = cv2.imread("Remove_Background/input.jpg")
+img = cv2.imread("input.jpg")
 img_hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
 lower_mask = np.array([6, 100, 64])
@@ -26,7 +26,16 @@ erode = cv2.erode(external_contours, kernel, iterations=3)
 dilate = cv2.dilate(erode, kernel, iterations=1)
 
 last_img = dilate.copy()
-cv2.imshow("Last Image with more accurate", last_img)
+
+contours_final, _ = cv2.findContours(last_img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+final_mask = np.zeros_like(last_img)
+
+for cnt in contours_final:
+    hull = cv2.convexHull(cnt)
+    cv2.drawContours(final_mask, [hull], -1, 255, -1)
+
+cv2.imshow("Last Image with more accurate", final_mask)
 cv2.imshow("Mask Kivis", result)
 
 cv2.waitKey()
