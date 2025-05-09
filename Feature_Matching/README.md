@@ -173,9 +173,6 @@ FLANN, descriptor'lar arasında en yakın eşleşmeleri yaklaşık (approximate 
 İlk olarak iki resmi okuyup, eşleştirme yapmak istediğimiz hedef nesneyi ve ana resmi hazırlıyoruz.
 
 ```python
-
-```
-```python
 cheerios = cv2.imread('assets/cheerios.png',0)
 cereals = cv2.imread('assets/many_cereals.jpg',0)
 ```
