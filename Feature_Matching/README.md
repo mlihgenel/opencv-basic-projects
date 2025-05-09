@@ -2,11 +2,9 @@
 
 Bu doküman dosyada bulunan `bf-matcher.py` , `knn-matcher.py` ve `flann-matcher.py` dosyalarının açıklamalarını içerir.
 
---- 
+## Algoritmalar 
 
-## Algoritmalar 
-
-### 1. BFMatcher (Brute-Force Matcher)
+### 1. BFMatcher (Brute-Force Matcher)
 
 BFMatcher, iki görüntüdeki anahtar noktaların (keypoints) tanımlayıcılarını (descriptors) karşılaştırarak en yakın eşleşmeleri bulur. Bu eşleşmeler, örneğin bir nesnenin farklı açılardan çekilmiş iki fotoğrafında aynı nesneyi tanımak için kullanılır.
 
@@ -164,7 +162,7 @@ Bu şekilde, eşleşmeleri en iyi 78 olarak seçiyoruz ve görselde gösteriyoru
 
 ---
 
-### 3. FLANN Matcher (Fast Library for Approximate Nearest Neighbors)
+### 3. FLANN Matcher (Fast Library for Approximate Nearest Neighbors)
 
 FLANN, büyük veri kümelerinde benzer özellikleri hızlı bir şekilde eşleştirmek için kullanılan yüksek performanslı bir kütüphanedir. Özellikle **SIFT**, **SURF** gibi daha karmaşık ve yüksek boyutlu descriptor'lar için uygundur. Brute-Force yaklaşımından daha hızlı çalışır.
 
