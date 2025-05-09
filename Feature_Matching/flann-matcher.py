@@ -9,11 +9,11 @@ def display(img, cmap = "gray"):
 #----------------------------------------
 
 # içinde arayacağımız resmi okuyoruz
-cheerios = cv2.imread('Feature_Matching/cheerios.png',0) 
+cheerios = cv2.imread('Feature_Matching/assets/cheerios.png',0) 
 # sadece plot edilirken daha güzel gözükmesi için boyutları ayarlıyoruz
 cheerios = cv2.resize(cheerios, (550, 550), interpolation=cv2.INTER_AREA)
 # ana resmimizi okuyoruz, cheerios resmini bu resimde arayacağız
-cereals = cv2.imread('Feature_Matching/many_cereals.jpg',0)
+cereals = cv2.imread('Feature_Matching/assets/many_cereals.jpg',0)
 
 # --------- FLANN Matching with SIFT Algorithm --------- # 
 
