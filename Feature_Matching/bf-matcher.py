@@ -42,3 +42,4 @@ matches = sorted(matches, key = lambda x:x.distance)
 cheerios_matches = cv2.drawMatches(cheerios, kp1, cereals, kp2, matches[:25], None, flags = 2)
 
 display(cheerios_matches)
+
