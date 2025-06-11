@@ -4,6 +4,10 @@
 ## Proje Genel Bakış
 Bu projede manuel olarak videodan seçilen ROI ile birlikte nesne takibi yapılmaktadır. İki farklı algoritma kullanılmıştır. Bunlar **MIL (Multiple Instance Learning) Tracker** ve **KCF (Kernelized Correlation Filter) Tracker** takip algoritmalarıdır. BU projede takip edilecek nesne tamamen kullanıcıya bağlıdır ve ROI yani (Region of Interest) kullanıcı tarafından belirlenmektedir. 
 
+https://github.com/user-attachments/assets/514912c3-0ca7-4f62-89e9-b5507b70681f
+
+Bu video örnek olarak KFC Algoritması ile ROI seçerek nesne takibini gösterir.  
+
 ## Proje Modülleri ve Detaylı Açıklamaları
 
 ### Takip Algoritması Seçim Fonksiyonu
