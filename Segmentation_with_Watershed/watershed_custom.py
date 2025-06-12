@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import cm
 
 img = cv2.imread("landscape.jpg")
-road_copy = img.copy()
+land_copy = img.copy()
 
 marker_img = np.zeros(img.shape[:2], dtype=np.int32)
 
@@ -30,7 +30,7 @@ def mouse_callback(event,x,y,flags,params):
         cv2.circle(marker_img, (x,y), 10, current_marker, -1)
 
         # KULLANICININ RESİMDE GÖRDÜĞÜ
-        cv2.circle(road_copy, (x,y),10, colors[current_marker], -1)
+        cv2.circle(land_copy, (x,y),10, colors[current_marker], -1)
 
         marks_updated = True
         
@@ -41,7 +41,7 @@ cv2.setMouseCallback('Road Image', mouse_callback)
 while True:
 
     cv2.imshow('Watershed Segments', segments)
-    cv2.imshow('Road Image', road_copy)
+    cv2.imshow('Road Image', land_copy)
 
     k = cv2.waitKey(0)
 
