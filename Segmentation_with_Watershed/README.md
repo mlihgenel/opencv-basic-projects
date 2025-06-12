@@ -8,6 +8,7 @@ Bu projede, Watershed algoritması ile bir görüntü üzerinde kullanıcı tara
 Watershed algoritması, görüntü segmentasyonu için kullanılan bir yöntemdir. Temel olarak, bir görüntüyü "topografik bir harita" gibi düşünür ve işaretlenen bölgelerden (marker) başlayarak, suyun yükselmesiyle farklı havzaların oluşmasını simüle eder. Her havza, farklı bir segmenti temsil eder ve sınırları otomatik olarak belirler. Bu yöntem, özellikle nesnelerin sınırlarının belirgin olmadığı durumlarda oldukça etkilidir.
 
 ---
+https://github.com/user-attachments/assets/fe7c3dfb-fe3f-41db-b75e-2f1f333b9739
 
 ### Kütüphanelerin Yüklenmesi
 ```python
@@ -46,6 +47,8 @@ for i in range(10):
 ```
 - `create_rgb(i)`: Her marker için farklı bir renk üretir.
 - `colors`: 10 farklı marker için renklerin tutulduğu liste.
+
+Renk haritaları için daha fazla bilgiye [buradan](https://matplotlib.org/stable/users/explain/colors/colormaps.html) ulaşabilirsiniz.
 
 ### Marker ve Kontrol Değişkenleri
 ```python
