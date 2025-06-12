@@ -16,6 +16,7 @@ Bu repo, OpenCV öğrenme sürecimde karşılaştığım farklı temel görünt�
 | Histogram Operations     | Görüntü histogramları üzerinde işlemler yaparak görüntü analizi ve iyileştirme teknikleri.                      | [Histogram Operations](./Histogram_Operations)     |
 | Object Traking with ROI  | Kullanıcının belirlediği ROI (ilgi alanı) ile video üzerinde nesne takibi için MIL ve KCF algoritmalarının kullanımı.              | [Object Traking with ROI](./Object%20Traking%20with%20ROI)  |
 | Remove Background        | Görüntülerden arka planı kaldırmak için segmentasyon ve maskeleme tekniklerinin uygulanması.                                              | [Remove Background](./Remove_Background)            |
+| Segmentation with Watershed | Watershed algoritması ile kullanıcı tarafından işaretlenen bölgeleri kullanarak, görsellerde kolay ve etkili bir şekilde interaktif segmentasyon yapmayı sağlayan uygulama. | [Segmentation with Watershed](./Segmentation_with_Watershed) |
 
 ---
 
