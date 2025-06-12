@@ -47,6 +47,8 @@ for i in range(10):
 - `create_rgb(i)`: Her marker için farklı bir renk üretir.
 - `colors`: 10 farklı marker için renklerin tutulduğu liste.
 
+Renk haritaları için daha fazla bilgiye [buradan](https://matplotlib.org/stable/users/explain/colors/colormaps.html) ulaşabilirsiniz.
+
 ### Marker ve Kontrol Değişkenleri
 ```python
 n_markers = 10 # 0-9 
