@@ -17,6 +17,7 @@ Bu repo, OpenCV öğrenme sürecimde karşılaştığım farklı temel görünt�
 | **Object Traking with ROI**  | Kullanıcının belirlediği ROI (ilgi alanı) ile video üzerinde nesne takibi için MIL ve KCF algoritmalarının kullanımı.              | [Object Traking with ROI](./Object%20Traking%20with%20ROI)  |
 | **Remove Background**        | Görüntülerden arka planı kaldırmak için segmentasyon ve maskeleme tekniklerinin uygulanması.                                              | [Remove Background](./Remove_Background)            |
 | **Segmentation with Watershed** | Watershed algoritması ile kullanıcı tarafından işaretlenen bölgeleri kullanarak, görsellerde kolay ve etkili bir şekilde interaktif segmentasyon yapmayı sağlayan uygulama. | [Segmentation with Watershed](./Segmentation_with_Watershed) |
+| **Face and Human Detection**   | Yüz ve insan tespiti için Haar Cascade ve HOG tabanlı algoritmaların uygulamaları. | [Face and Human Detection](./Face%20and%20Human%20Detection) |
 
 ---
 
