@@ -2,7 +2,7 @@
 ---
 Bu proje, OpenCV kütüphanesi kullanılarak Haar Cascade yöntemiyle yüz tespiti yapan bir uygulamayı içerir. Projede video üzerinde gerçek zamanlı yüz tespiti yapan bir Python betiği ve gerekli model dosyaları bulunmaktadır.
 
-## Haar Cascade Algoritması Kısa ve Öz Açıklama
+## Haar Cascade Algoritması 
 
 Haar Cascade, Viola-Jones algoritması olarak da bilinen ve özellikle yüz tespitinde uzun yıllardır kullanılan, hızlı ve pratik bir görüntü işleme tekniğidir. Temel olarak, görüntüdeki belirli desenleri (göz, burun, ağız gibi) hızlıca kontrol eden, çok sayıda basit sınıflandırıcıyı zincirleme olarak kullanan bir yapıdır.
 
@@ -27,6 +27,10 @@ Haar Cascade, Viola-Jones algoritması olarak da bilinen ve özellikle yüz tesp
 - İyi aydınlatılmış, net görüntülerde en iyi sonucu verir.
 
 ---
+
+
+https://github.com/user-attachments/assets/0e7cd32f-d712-47d8-9247-1633386c5158
+
 
 ---
 
