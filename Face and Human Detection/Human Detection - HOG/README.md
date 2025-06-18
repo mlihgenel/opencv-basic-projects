@@ -2,7 +2,7 @@
 ---
 Bu proje, OpenCV kütüphanesi kullanılarak HOG (Histogram of Oriented Gradients) yöntemiyle insan tespiti yapan bir uygulamayı içerir. Projede hem fotoğraf hem de video üzerinde insan tespiti yapabilen iki farklı Python betiği bulunmaktadır.
 
-## HOG (Histogram of Oriented Gradients) Algoritması Detaylı Açıklama
+## HOG (Histogram of Oriented Gradients) Algoritması 
 
 HOG, görüntüdeki nesneleri (özellikle insanları) tespit etmek için kullanılan bir özellik çıkarım yöntemidir. HOG'un temel amacı, bir görüntüdeki kenar, köşe ve doku gibi yapıları, yön bilgisiyle özetlemektir. HOG, özellikle yaya tespitinde endüstri standardı haline gelmiştir.
 
@@ -40,11 +40,18 @@ HOG, görüntüdeki nesneleri (özellikle insanları) tespit etmek için kullan�
 
 ---
 
+
+https://github.com/user-attachments/assets/a974a982-c3d7-452b-ad9f-b43997964c94
+
+
+
 ## Resimden ve Videodan İnsan Tespiti
 
 Bu projede iki ana kullanım senaryosu vardır: bir görüntü (fotoğraf) üzerinden insan tespiti ve bir video (veya kamera akışı) üzerinden insan tespiti. Aşağıda her iki senaryonun kodu ve satır satır açıklamaları birlikte verilmiştir.
 
 ### 1. Resimden İnsan Tespiti
+
+<img width="1676" alt="Ekran Resmi 2025-06-18 23 19 07" src="https://github.com/user-attachments/assets/e8edf54c-5e7d-485d-8d33-e35b3c4697b8" />
 
 ```python
 import cv2
