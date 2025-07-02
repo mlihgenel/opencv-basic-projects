@@ -8,6 +8,9 @@ Bu projede, bilgisayarlı görüde sıkça kullanılan GrabCut algoritması ile 
 GrabCut algoritması, etkileşimli görüntü segmentasyonu için geliştirilmiş bir yöntemdir. Temel olarak, kullanıcıdan alınan bir dikdörtgen ile ön plan ve arka plan piksellerini ayırır. Markov Rastgele Alanları (MRF) ve Gaussian Karışım Modelleri (GMM) kullanarak, nesne ve arka planı yinelemeli olarak modelleyip en iyi ayrımı bulur. Özellikle arka planın karmaşık olduğu durumlarda başarılı sonuçlar verir.
 
 ---
+<img width="1676" alt="Ekran Resmi 2025-07-02 16 02 56" src="https://github.com/user-attachments/assets/74bca159-c650-428b-8675-ac464e132f43" />
+
+---
 
 ### Kütüphanelerin Yüklenmesi
 ```python
