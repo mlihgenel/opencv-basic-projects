@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 
-img = cv2.imread('Change_Object_Color/with Grabcut Algorithm/input.jpg')
+img = cv2.imread('input.jpg')
 
 height, width = img.shape[:2]
 
