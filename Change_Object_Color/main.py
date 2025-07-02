@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread("Change_Object_Color/input.jpg")
+image = cv2.imread("input.jpg")
 hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
 lower_red1 = np.array([0, 50, 50])
