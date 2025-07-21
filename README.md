@@ -19,7 +19,6 @@ Bu repo, OpenCV öğrenme sürecimde karşılaştığım farklı temel görünt�
 | **Segmentation with Watershed** | Watershed algoritması ile kullanıcı tarafından işaretlenen bölgeleri kullanarak, ggibi örsellerde kolay ve etkili bir şekilde interaktif segmentasyon yapmayı sağlayan uygulama. | [Segmentation with Watershed](./Segmentation_with_Watershed) |
 | **Face and Human Detection**   | Yüz ve insan tespiti için Haar Cascade ve HOG tabanlı algoritmaların uygulamaları. | [Face and Human Detection](./Face%20and%20Human%20Detection) |
 | **OpticalFlow Object Tracking** | Lucas-Kanade ve Dense Optical Flow algoritmaları ile hareketli nesnelerin nesne takibi. | [OpticalFlow Object Tracking](./OpticalFlow%20Object%20Tracking) |
-|Optical 
 ---
 
 Her proje kendi dosyasında kaynak kodları ve açıklamalarıyla bulunmaktadır. İlgilendiğiniz projeye tıklayarak daha fazla bilgi edinebilirsiniz.
