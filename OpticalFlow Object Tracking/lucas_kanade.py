@@ -7,7 +7,7 @@ lk_params = dict(
     maxLevel = 2,
     criteria = (cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 10, 0.03)
 )
-video_path = 'video.mp4'
+video_path = 'videos/video2.mp4'
 cap = cv2.VideoCapture(video_path)
 ret, old_frame = cap.read()
 

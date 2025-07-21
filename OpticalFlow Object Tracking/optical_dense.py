@@ -1,7 +1,8 @@
 import cv2
 import numpy as np
 
-cap = cv2.VideoCapture('video5.mp4')
+video_path = 'videos/video2.mp4'
+cap = cv2.VideoCapture(video_path)
 
 ret, frame1 = cap.read()
 
