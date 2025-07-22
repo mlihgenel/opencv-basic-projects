@@ -16,20 +16,24 @@ objp = np.zeros((CHESSBOARD[0]*CHESSBOARD[1], 3), dtype=np.float32)
 objp[:, :2] = np.mgrid[0:CHESSBOARD[0], 0:CHESSBOARD[1]].T.reshape(-1, 2) 
 
 
-images = glob.glob('images/*.jpg') 
+images = glob.glob('images/*.jpg') # --> klasördeki tüm resimlei images değişkenine atar
 
 for fnames in images:
     img = cv2.imread(fnames)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     
-    ret, corners = cv2.findChessboardCorners(gray, CHESSBOARD, None)
+    ret, corners = cv2.findChessboardCorners(gray, CHESSBOARD, None) # --> köşe noktalarını buluyoruz 
     
     if ret:
-        objPoints.append(objp)
-        corners2 = cv2.cornerSubPix(image=gray, corners=corners, winSize=(11,11), zeroZone=(-1,-1), criteria=criteria)
-        imgPoints.append(corners2.copy())
+        objPoints.append(objp) # --> gerçek dünya koordinatları objPoints'e ekler 
+        corners2 = cv2.cornerSubPix(image=gray,
+                                    corners=corners, 
+                                    winSize=(11,11), 
+                                    zeroZone=(-1,-1), 
+                                    criteria=criteria) # --> köşeleri hassas şekilde iyileştirir 
+        imgPoints.append(corners2.copy()) # --> görüntüdeki hassaslaşan noktaları imgPoints'e ekler 
         
-        cv2.drawChessboardCorners(image=img, patternSize=CHESSBOARD, corners=corners2, patternWasFound=ret)
+        cv2.drawChessboardCorners(image=img, patternSize=CHESSBOARD, corners=corners2, patternWasFound=ret) # köşeleri çizer
     
     cv2.imshow('img', img)
     k = cv2.waitKey(0) & 0xFF
