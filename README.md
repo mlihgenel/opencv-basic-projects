@@ -2,7 +2,7 @@
 ---
 Bu repo, OpenCV öğrenme sürecimde karşılaştığım farklı temel görüntü işleme ve bilgisayarla görme projelerini bir araya getirmek için oluşturuldu.
 
-İçerisinde renk değiştirme, özellik eşleştirme, şekil bulma, histogram işlemleri, nesne takibi ve arka plan kaldırma gibi çeşitli projeler bulunuyor. Her proje farklı bir konuyu ele alıyor ve kendi klasöründe detaylı açıklamalarla birlikte.
+İçerisinde renk değiştirme, özellik eşleştirme, şekil bulma, histogram işlemleri, nesne takibi ve arka plan kaldırma, kamera kalibrasyonu gibi çeşitli projeler bulunuyor. Her proje farklı bir konuyu ele alıyor ve kendi klasöründe detaylı açıklamalarla birlikte.
 
 ---
 
@@ -19,6 +19,7 @@ Bu repo, OpenCV öğrenme sürecimde karşılaştığım farklı temel görünt�
 | **Segmentation with Watershed** | Watershed algoritması ile kullanıcı tarafından işaretlenen bölgeleri kullanarak, ggibi örsellerde kolay ve etkili bir şekilde interaktif segmentasyon yapmayı sağlayan uygulama. | [Segmentation with Watershed](./Segmentation_with_Watershed) |
 | **Face and Human Detection**   | Yüz ve insan tespiti için Haar Cascade ve HOG tabanlı algoritmaların uygulamaları. | [Face and Human Detection](./Face%20and%20Human%20Detection) |
 | **OpticalFlow Object Tracking** | Lucas-Kanade ve Dense Optical Flow algoritmaları ile hareketli nesnelerin nesne takibi. | [OpticalFlow Object Tracking](./OpticalFlow%20Object%20Tracking) |
+|**Camera Calibration** |Kamera ile çekilen görüntülerdeki mercek bozulmalarını düzeltmek için içsel kamera parametrelerinin ve distorsiyon katsayılarının hesaplandığı uygulama. Bu sayede görüntüler daha doğru ve gerçekçi hale getirilir.|[Camera Calibration](./Camera%20Calibration/) |
 ---
 
 Her proje kendi dosyasında kaynak kodları ve açıklamalarıyla bulunmaktadır. İlgilendiğiniz projeye tıklayarak daha fazla bilgi edinebilirsiniz.
