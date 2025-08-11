@@ -5,7 +5,7 @@ video_path = 'videos/video2.mp4'
 cap = cv2.VideoCapture(video_path)
 ret, frame = cap.read()
 
-roi = cv2.selectROI("ROI Secimi", frame, fromCenter=False, showCrosshair=True) 
+roi = cv2.selectROI("ROI Secimi", frame, fromCenter=False, showCrosshair=False) 
 
 x, y, w, h = roi
 x_min = x
