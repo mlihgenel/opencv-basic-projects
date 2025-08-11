@@ -1,20 +1,32 @@
 import cv2
 import os 
+import logging
 
+logging.basicConfig(
+    filename="app.log",
+    filemode="a",
+    format="%(asctime)s - %(levelname)s - %(message)s - %(filename)s",
+    level=logging.INFO
+)
 
 def add_user():
     face_classifier = cv2.CascadeClassifier('haarcascades/haarcascade_frontalface_alt2.xml')
     
     def face_crop(img):
-        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-        faces = face_classifier.detectMultiScale(gray, 1.3, 5)
-        
-        if len(faces) == 0:
-            return None
-        for (x,y,w,h) in faces:
-            cropped_face = img[y-100:y+h+100, x-100:x+w+100]
+        try:
+            gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+            faces = face_classifier.detectMultiScale(gray, 1.3, 5)
             
-        return cropped_face
+            if len(faces) == 0:
+                return None
+            for (x,y,w,h) in faces:
+                cropped_face = img[y-100:y+h+100, x-100:x+w+100]
+            
+            return cropped_face
+        except:
+            logging.info("Yüz algılanamadı")
+            print("Yüz algılanamdı...")
+            return 
     
     cap = cv2.VideoCapture(0)
     img_id = 0 
@@ -35,9 +47,13 @@ def add_user():
             
             k = cv2.waitKey(1)
             if k == ord('p'):
-                file_path = f"{folder_path}/data.{str(img_id)}.jpg"
-                cv2.imwrite(file_path, face)
-                print("Image saved...")
+                try:
+                    file_path = f"{folder_path}/data.{str(img_id)}.jpg"
+                    cv2.imwrite(file_path, face)
+                    print("Image saved...")
+                    logging.info("Resim kaydedildi")
+                except:
+                    logging.warning("Resim kaydedilmedi")
             
             if  k == 27 or k == ord('q'):
                 break
