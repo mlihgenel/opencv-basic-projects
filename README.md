@@ -20,6 +20,7 @@ Bu repo, OpenCV öğrenme sürecimde karşılaştığım farklı temel görünt�
 | **Face and Human Detection**   | Yüz ve insan tespiti için Haar Cascade ve HOG tabanlı algoritmaların uygulamaları. | [Face and Human Detection](./Face%20and%20Human%20Detection) |
 | **OpticalFlow Object Tracking** | Lucas-Kanade ve Dense Optical Flow algoritmaları ile hareketli nesnelerin nesne takibi. | [OpticalFlow Object Tracking](./OpticalFlow%20Object%20Tracking) |
 |**Camera Calibration** |Kamera ile çekilen görüntülerdeki mercek bozulmalarını düzeltmek için içsel kamera parametrelerinin ve distorsiyon katsayılarının hesaplandığı uygulama. Bu sayede görüntüler daha doğru ve gerçekçi hale getirilir.|[Camera Calibration](./Camera%20Calibration/) |
+|**Face Recognation**| Kameradan alınan görüntü ile, yüz kaydetme, yüz tespiti ve giriş güveliği kontrol uygulaması.| [Face Recognation](./Face_Recognation)|
 ---
 
 Her proje kendi dosyasında kaynak kodları ve açıklamalarıyla bulunmaktadır. İlgilendiğiniz projeye tıklayarak daha fazla bilgi edinebilirsiniz.
