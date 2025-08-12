@@ -1,0 +1,23 @@
+2025-08-11 17:14:27,208 - INFO - FaceRecognation sınıfı oluşturuldu - face_recognation.py
+2025-08-11 17:14:27,209 - INFO - Yüz resimleri okunuyor - face_recognation.py
+2025-08-11 17:14:28,681 - INFO - Kamera başarıyla başlatıldı - face_recognation.py
+2025-08-11 17:14:28,733 - WARNING - Yüz eşleştirme yapılamadı - face_recognation.py
+2025-08-11 17:14:34,804 - INFO - Recognition işlemi sonlandı - face_recognation.py
+2025-08-11 17:15:28,716 - INFO - Resim kaydedildi - add_user.py
+2025-08-11 17:15:30,942 - INFO - Resim kaydedildi - add_user.py
+2025-08-11 17:15:31,139 - INFO - Resim kaydedildi - add_user.py
+2025-08-11 17:15:31,340 - INFO - Resim kaydedildi - add_user.py
+2025-08-11 17:15:31,508 - INFO - Resim kaydedildi - add_user.py
+2025-08-11 17:15:31,675 - INFO - Resim kaydedildi - add_user.py
+2025-08-11 17:15:51,871 - INFO - FaceRecognation sınıfı oluşturuldu - face_recognation.py
+2025-08-11 17:15:51,871 - INFO - Yüz resimleri okunuyor - face_recognation.py
+2025-08-11 17:15:51,872 - INFO - Klasör işleniyor: melih - face_recognation.py
+2025-08-11 17:15:54,020 - INFO - Kamera başarıyla başlatıldı - face_recognation.py
+2025-08-11 17:15:54,049 - INFO - access_log.csv dosyasına yazıldı - face_recognation.py
+2025-08-11 17:15:57,583 - INFO - Recognition işlemi sonlandı - face_recognation.py
+2025-08-11 17:16:24,838 - INFO - FaceRecognation sınıfı oluşturuldu - face_recognation.py
+2025-08-11 17:16:24,839 - INFO - Yüz resimleri okunuyor - face_recognation.py
+2025-08-11 17:16:24,839 - INFO - Klasör işleniyor: melih - face_recognation.py
+2025-08-11 17:16:26,974 - INFO - Kamera başarıyla başlatıldı - face_recognation.py
+2025-08-11 17:16:27,004 - INFO - access_log.csv dosyasına yazıldı - face_recognation.py
+2025-08-11 17:16:36,769 - INFO - Recognition işlemi sonlandı - face_recognation.py
